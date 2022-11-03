@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "sans";
+    src: url("../public/Mont/Mont-Regular.otf");
+}
+@font-face {
+    font-family: "bold";
+    src: url("../public/Mont/Mont-Bold.otf");
+}
+@font-face {
+    font-family: "heavy";
+    src: url("../public/Mont/Mont-Heavy.otf");
+}
+@font-face {
+    font-family: "semibold";
+    src: url("../public/Mont/Mont-SemiBold.otf");
+}
+
+body{
+    @apply overflow-x-hidden;
+}
